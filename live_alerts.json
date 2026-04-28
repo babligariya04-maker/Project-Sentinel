@@ -1,0 +1,58 @@
+[
+    {
+        "timestamp": "2026-04-28 15:49:17",
+        "location": "Mumbai Port",
+        "keyword_flagged": "traffic collision",
+        "raw_text_snippet": "Local reports indicate strike near the main transit corridor.",
+        "source": "Local News RSS"
+    },
+    {
+        "timestamp": "2026-04-28 15:49:17",
+        "location": "Pune Hub",
+        "keyword_flagged": "strike",
+        "raw_text_snippet": "Local reports indicate flooded near the main transit corridor.",
+        "source": "Local News RSS"
+    },
+    {
+        "timestamp": "2026-04-28 15:49:17",
+        "location": "Surat Factory",
+        "keyword_flagged": "bridge repair",
+        "raw_text_snippet": "Local reports indicate bridge repair near the main transit corridor.",
+        "source": "Telegram Logistics Channel"
+    },
+    {
+        "timestamp": "2026-04-28 15:49:17",
+        "location": "Surat Factory",
+        "keyword_flagged": "clear skies",
+        "raw_text_snippet": "Local reports indicate traffic collision near the main transit corridor.",
+        "source": "Twitter/X API"
+    },
+    {
+        "timestamp": "2026-04-28 15:49:17",
+        "location": "Mumbai Port",
+        "keyword_flagged": "flooded",
+        "raw_text_snippet": "Local reports indicate flooded near the main transit corridor.",
+        "source": "Telegram Logistics Channel"
+    },
+    {
+        "timestamp": "2026-04-28 15:49:17",
+        "location": "Surat Factory",
+        "keyword_flagged": "clear skies",
+        "raw_text_snippet": "Local reports indicate strike near the main transit corridor.",
+        "source": "Local News RSS"
+    },
+    {
+        "timestamp": "2026-04-28 15:49:17",
+        "location": "Mumbai Port",
+        "keyword_flagged": "flooded",
+        "raw_text_snippet": "Local reports indicate traffic collision near the main transit corridor.",
+        "source": "Twitter/X API"
+    },
+    {
+        "timestamp": "2026-04-28 15:49:17",
+        "location": "Mumbai Port",
+        "keyword_flagged": "clear skies",
+        "raw_text_snippet": "Local reports indicate smooth transit near the main transit corridor.",
+        "source": "Telegram Logistics Channel"
+    }
+]
