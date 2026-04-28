@@ -5,7 +5,7 @@ from streamlit_folium import st_folium
 import json
 import numpy as np
 import os
-from tensorflow.keras.models import load_model
+
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(layout="wide", page_title="Project Sentinel", page_icon="🛡️")
@@ -14,14 +14,8 @@ st.title("🛡️ Project Sentinel: Supply Chain Immunity")
 st.markdown("Predictive Contagion Engine & Dynamic Network Rerouting")
 st.divider()
 
-# --- CACHE THE AI MODEL TO PREVENT RELOAD LAG ---
-@st.cache_resource
-def get_ai_model():
-    if os.path.exists("sentinel_lstm.h5"):
-        return load_model("sentinel_lstm.h5", compile=False)
-    return None
-lstm_model = get_ai_model()
-
+# --- CLOUD DEMO MODE: Bypassing local model to save memory ---
+lstm_model = None
 # --- BUILD THE GRAPH ENGINE ---
 locations = {
     "Mumbai Port": [18.944, 72.836],
