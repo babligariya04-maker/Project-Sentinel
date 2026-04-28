@@ -3,5 +3,4 @@ networkx
 folium
 streamlit-folium
 pandas
-tensorflow-cpu
 numpy
