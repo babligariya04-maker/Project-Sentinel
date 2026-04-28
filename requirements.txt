@@ -1,0 +1,7 @@
+streamlit
+networkx
+folium
+streamlit-folium
+pandas
+tensorflow
+numpy
